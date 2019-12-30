@@ -8,5 +8,10 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   store,
+  methods:{
+    showInfo(){
+      alert('Data from the root instance')
+    }
+  },
   render: h => h(App)
 }).$mount("#app");
