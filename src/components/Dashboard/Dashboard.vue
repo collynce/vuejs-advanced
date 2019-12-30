@@ -28,7 +28,22 @@
             alert('Before the creation of the Vue instance')
         },
         created() {
-            alert('Before the creation of the Vue instance')
+            alert('Vue instance has been initialized')
+        },
+        mounted() {
+            this.mountedFunction()
+        },
+        destroyed() {
+            this.destroyFunction()
+
+        },
+        methods:{
+            mountedFunction(){
+                alert('Vue instance has been mounted')
+            },
+            destroyFunction(){
+                alert('sdsdsds')
+            }
         }
     }
 </script>
