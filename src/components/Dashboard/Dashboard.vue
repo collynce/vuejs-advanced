@@ -24,26 +24,26 @@
     export default {
         name: "Dashboard",
 
-        beforeCreate() {
-            alert('Before the creation of the Vue instance')
-        },
-        created() {
-            alert('Vue instance has been initialized')
-        },
-        mounted() {
-            this.mountedFunction()
-        },
-        destroyed() {
-            this.destroyFunction()
-
-        },
+        // beforeCreate() {
+        //     alert('Before the creation of the Vue instance')
+        // },
+        // created() {
+        //     alert('Vue instance has been initialized')
+        // },
+        // mounted() {
+        //     this.mountedFunction()
+        // },
+        // destroyed() {
+        //     this.destroyFunction()
+        //
+        // },
         methods:{
-            mountedFunction(){
-                alert('Vue instance has been mounted')
-            },
-            destroyFunction(){
-                alert('sdsdsds')
-            }
+            // mountedFunction(){
+            //     alert('Vue instance has been mounted')
+            // },
+            // destroyFunction(){
+            //     alert('sdsdsds')
+            // }
         }
     }
 </script>

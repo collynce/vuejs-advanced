@@ -4,6 +4,7 @@
       <Home/>
     </div>
     <router-view />
+
   </div>
 </template>
 <script>

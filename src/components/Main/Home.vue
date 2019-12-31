@@ -1,7 +1,11 @@
 <template>
-    <div><p>
-        dsds
-    </p></div>
+    <div>
+        <div>
+            <ul>
+                <li>Contact <span>0706578157</span></li>
+            </ul>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -10,6 +14,12 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+ul{
+    background: dodgerblue;
+    list-style: none;
+    li{
+        padding: 10px;
+    }
+}
 </style>
